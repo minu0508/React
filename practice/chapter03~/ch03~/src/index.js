@@ -6,7 +6,9 @@ import reportWebVitals from './reportWebVitals';
 
 import Library from './chapter_03/Library';
 import Clock from './chapter_04/Clock';
-import CommentList from './chapter05/CommentList';
+import CommentList from './chapter_05/CommentList';
+import NotificationList from './chapter_06/Notificationist';
+import Accommodate from './chapter_07/Accommodate';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -36,12 +38,31 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
  * Chapter_05
  * [댓글 컴포넌트 만들기]
  */
+// root.render(
+//   <React.StrictMode>
+//     <CommentList />
+//   </React.StrictMode>
+// );
 
+/**
+ * Chapter_06
+ */
+// root.render(
+//   <React.StrictMode>
+//     <NotificationList />
+//   </React.StrictMode>
+// );
+
+/**
+ * Chapter_07
+*/
 root.render(
   <React.StrictMode>
-    <CommentList />
+    <Accommodate />
   </React.StrictMode>
 );
+
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
