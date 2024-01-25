@@ -4,18 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import Library from './chapter_03/Library';
-import Clock from './chapter_04/Clock';
-import CommentList from './chapter_05/CommentList';
-import NotificationList from './chapter_06/Notificationist';
-import Accommodate from './chapter_07/Accommodate';
-import ConfirmButton from './chapter_08/ConfirmButton';
-import LandingPage from './chapter_09/LandingPage';
-import AttendanceBook from './chapter_10/AttendanceBook'
-import SignUp from './chapter_11/signup';
-import Calculator from './chapter_12/Calculator';
-import ProfileCard from './chapter_13/ProfileCard';
-import DarkOrLight from './chapter_14/DarkOrLight';
+// import Library from './chapter_03/Library';
+// import Clock from './chapter_04/Clock';
+// import CommentList from './chapter_05/CommentList';
+// import NotificationList from './chapter_06/Notificationist';
+// import Accommodate from './chapter_07/Accommodate';
+// import ConfirmButton from './chapter_08/ConfirmButton';
+// import LandingPage from './chapter_09/LandingPage';
+// import AttendanceBook from './chapter_10/AttendanceBook'
+// import SignUp from './chapter_11/signup';
+// import Calculator from './chapter_12/Calculator';
+// import ProfileCard from './chapter_13/ProfileCard';
+// import DarkOrLight from './chapter_14/DarkOrLight';
+import Blocks from './chapter_15/Block';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -126,9 +127,18 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 /**
  * Chapter_14
 */
+// root.render(
+//   <React.StrictMode>
+//     <DarkOrLight />
+//   </React.StrictMode>
+// );
+
+/**
+ * Chapter_15
+*/
 root.render(
   <React.StrictMode>
-    <DarkOrLight />
+    <Blocks />
   </React.StrictMode>
 );
 
